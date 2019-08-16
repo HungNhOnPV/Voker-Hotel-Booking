@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	position: relative;
+}
+
+.logo a {
+	position: absolute;
+	left: 30px;
+}
+
+.header {
+	background-color: #f7f9ff;
+	height: 100px;
+	width: 100%;
+	font-size: 1rem;
+}
+
+.header .text {
+	position: absolute;
+	left: 300px;
+}
+
+.header .text p {
+	text-decoration: underline;
+}
+
+.header .text a {
+	color: #fea116;
+}
+
+.header .droplist {
+	position: absolute;
+	left: 800px;
+	top: 20px;
+}
+
+.header .droplist a {
+	color: #6c757d;
+	text-decoration: none;
+}
+
+.header .droplist .btn .father {
+	list-style: none;
+}
+
+.header .droplist .btn .father:hover .child {
+	display: block;
+}
+
+.header .droplist .btn .father .fa-sort-down {
+	padding-left: 10px;
+}
+
+.header .droplist .btn .father .child  {
+	list-style: none;
+	padding: 5px 0;
+	background-color: #FFF;
+	display: none;
+}
+
+.header .droplist .btn .father .child li {
+	padding: 10px 100px 10px 10px;
+}
+
+.header .droplist .btn .father .child li:hover {
+	background-color: #f8f9fa; 
+}
+
+.header .button .btn {
+	position: absolute;
+	left: 950px;
+	top: 20px;
+	padding: 15px 30px;
+	border-radius: 10px;
+	background-color: #3dbcb4;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.header .button .btn:hover {
+	background-color: #FFF;
+	border: 1px solid #3dbcb4;
+	color: #3dbcb4;
+}
+
+.header .account .acc {
+	position: absolute;
+	top: 20px;
+	left: 1100px;
+	color: #6c757d;
+	display: flex;
+	text-decoration: none;
+}
+
+.header .account .acc .image {
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	background-image: url(./yuna.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.header .account .acc .name-acc .father {
+	list-style: none;
+	padding: 15px;
+	margin: 0;
+}
+
+.header .account .acc .name-acc .father i {
+	padding-left: 10px;
+}
+
+.header .account .acc .name-acc .father .child {
+	list-style: none;
+	padding-left: 0;
+	background-color: #FFF;
+	display: none;
+}
+
+.header .account .acc .name-acc .father:hover .child {
+	display: block;
+}
+
+.header .account .acc .name-acc .father .child li {
+	padding: 10px 40px 10px 10px;
+}
+
+.header .account .acc .name-acc .father .child li:hover {
+	background-color: #f8f9fa;
+}
