@@ -20,7 +20,7 @@ body {
 
 .header .text {
 	position: absolute;
-	left: 300px;
+	left: 23%;
 }
 
 .header .text p {
@@ -33,7 +33,7 @@ body {
 
 .header .droplist {
 	position: absolute;
-	left: 800px;
+	left: 60%;
 	top: 20px;
 }
 
@@ -71,7 +71,7 @@ body {
 
 .header .button .btn {
 	position: absolute;
-	left: 950px;
+	left: 70%;
 	top: 20px;
 	padding: 15px 30px;
 	border-radius: 10px;
@@ -89,7 +89,7 @@ body {
 .header .account .acc {
 	position: absolute;
 	top: 20px;
-	left: 1100px;
+	left: 81%;
 	color: #6c757d;
 	display: flex;
 	text-decoration: none;
