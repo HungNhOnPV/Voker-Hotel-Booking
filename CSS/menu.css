@@ -1,7 +1,7 @@
 .main-one {
 	font-size: 1rem;
 	/*position: relative;*/
-	height: 800px;
+	height: 900px;
 	width: 100%;
 	margin: 0;
 	background-image: url(./image/background-image.jpg);
@@ -10,9 +10,10 @@
 }
 
 .main-one .menu {
-	position: relative;
+	position: absolute;
 	left: 20%;
 	display: flex;
+	width: 60%;
 }
 
 .main-one .menu .father {
@@ -46,6 +47,7 @@
 
 .main-one .menu .father li:hover .child {
 	display: block;
+	position: relative;
 }
 
 .main-one .menu .father li .child li {
@@ -65,7 +67,7 @@
 
 .main-one .menu .telephone {
 	position: absolute;
-	left: 65%;
+	left: 80%;
 	padding-top: 25px;
 	color: #fda129;
 }
