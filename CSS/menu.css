@@ -1,0 +1,75 @@
+.main-one {
+	font-size: 1rem;
+	/*position: relative;*/
+	height: 800px;
+	width: 100%;
+	margin: 0;
+	background-image: url(./image/background-image.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.main-one .menu {
+	position: relative;
+	left: 20%;
+	display: flex;
+}
+
+.main-one .menu .father {
+	display: flex;
+	list-style: none;
+}
+
+.main-one .menu .father li {
+	padding: 10px 20px 0 0;
+}
+
+.main-one .menu .father li a {
+	text-decoration: none;
+	color: #212529;
+	transition: all 0.3s;
+	padding-bottom: 20px;
+}
+
+.main-one .menu .father li a:hover {
+	color: #fda129;
+}
+
+.main-one .menu .father li .child {
+	text-decoration: none;
+	padding: 0;
+	list-style: none;
+	border: 1px solid #f0f0f0;
+	border-top: 2px solid #fda129;
+	display: none;
+}
+
+.main-one .menu .father li:hover .child {
+	display: block;
+}
+
+.main-one .menu .father li .child li {
+	padding: 10px 0 10px 0;
+
+}
+
+.main-one .menu .father li .child li a {
+	padding: 10px 20px;
+}
+
+.main-one .menu .father li .child li a:hover {
+	color: #fda129;
+	background-color: #f7faff;
+	transition: all 0.3s;
+}
+
+.main-one .menu .telephone {
+	position: absolute;
+	left: 65%;
+	padding-top: 25px;
+	color: #fda129;
+}
+
+.main-one .menu .telephone i {
+	padding-left: 10px;
+}
