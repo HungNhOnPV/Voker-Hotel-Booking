@@ -38,7 +38,7 @@
 	color: #6e777e;
 }
 
-.menu .search-hotel .col-2 .col button {
+.menu .search-hotel .col-2 .col a {
 	font-size: 1.3rem;
 	height: 90px;
 	width: 440px;
@@ -46,9 +46,13 @@
 	color: #FFF;
 	border-radius: 10px;
 	border: 1px solid #FFF;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.menu .search-hotel .col-2 .col button:hover {
+.menu .search-hotel .col-2 .col a:hover {
 	border: 1px solid #fda129;
 	color: #fda129;
 	background-color: #FFF;
