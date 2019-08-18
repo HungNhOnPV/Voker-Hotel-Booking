@@ -1,0 +1,55 @@
+.menu .search-hotel .text {
+	position: absolute;
+	left: -10%;
+	margin-top: 280px;
+}
+
+.menu .search-hotel .text .text-top {
+	font-size: 4rem;
+	color: #42495b;
+}
+
+.menu .search-hotel .text .text-bottom {
+	font-size: 1rem;
+	color: #9a9a9a;
+}
+
+.menu .search-hotel .col-2 {
+	display: flex;
+	position: absolute;
+	margin-top: 500px;
+	left: -10%;
+}
+
+.menu .search-hotel .col-2 .col {
+	display: flex;
+	flex-direction: column;
+	margin-right: 40px;
+}
+
+.menu .search-hotel .col-2 .col input {
+	font-size: 1.3rem;
+	margin-bottom: 40px;
+	height: 50px;
+	width: 400px;
+	padding: 20px;
+	border-radius: 10px;
+	border: 1px solid #ced4da;
+	color: #6e777e;
+}
+
+.menu .search-hotel .col-2 .col button {
+	font-size: 1.3rem;
+	height: 90px;
+	width: 440px;
+	background-color: #fda129;
+	color: #FFF;
+	border-radius: 10px;
+	border: 1px solid #FFF;
+}
+
+.menu .search-hotel .col-2 .col button:hover {
+	border: 1px solid #fda129;
+	color: #fda129;
+	background-color: #FFF;
+}
