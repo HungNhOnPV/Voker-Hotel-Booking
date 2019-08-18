@@ -56,4 +56,5 @@
 	border: 1px solid #fda129;
 	color: #fda129;
 	background-color: #FFF;
+	transition: all 0.5s;
 }
