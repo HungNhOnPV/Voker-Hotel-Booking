@@ -1,6 +1,6 @@
 .main-three {
 	width: 100%;
-	height: 1100px;
+	height: 1250px;
 	background-image: url(./image/background-3.jpg);
 	background-size: cover;
 	background-position: center;
@@ -28,4 +28,455 @@
 .main-three .text .text-bottom {
 	margin: 20px 0 50px 0;
 	opacity: 0.3;
+}
+
+.main-three .single-destination {
+	display: flex;
+	font-size: 1rem;
+	position: relative;
+	color: #FFF;
+	height: 550px;
+}
+
+.main-three .single-destination-2 {
+	display: flex;
+	font-size: 1rem;
+	position: relative;
+	color: #FFF;
+	height: 400px;
+}
+
+/*.single-destination .single-destination-one*/
+
+.main-three .single-destination .single-destination-one {
+	position: absolute;
+	width: 63%;
+	height: 500px;
+	background-image: url(./image/travel-1.jpg);
+	background-size: cover;
+	background-position: center;
+	margin: 20px 0 20px 2%;
+	/*display: none;*/
+}
+
+.main-three .single-destination .single-destination-one .overlay {
+	/*display: flex;*/
+	width: 100%;
+	height: 500px;
+	/*align-items: flex-end;*/
+	background: rgb(255,255,255);
+	background: linear-gradient(0deg, rgba(0,0,0,8) 0%, rgba(0,0,0,0) 100%);
+	box-sizing: border-box;
+	display: none;
+}
+
+.main-three .single-destination .single-destination-one:hover .overlay {
+	display: block;
+	display: flex;
+	align-items: flex-end;
+}
+
+.main-three .single-destination .single-destination-one .overlay .text {
+	position: absolute;
+	left: 5%;
+	padding-left: 20px;
+	padding-bottom: 40px;
+}
+
+.main-three .single-destination .single-destination-one .overlay:hover .text {
+	transform: translate(0, -10px);
+	transition: all 0.7s;
+}
+
+.main-three .single-destination .single-destination-one .overlay .text .top {
+	font-size: 2.5rem;
+}
+
+.main-three .single-destination .single-destination-one .overlay .text .bottom {
+	display: flex;
+}
+
+.main-three .single-destination .single-destination-one .overlay .text .bottom p {
+	margin: 0;
+	margin-left: 10px;
+}
+
+.main-three .single-destination .single-destination-one .overlay .icon-love {
+	position: absolute;
+	left: 85%;
+	bottom: 60px;
+	transform: scale(1.5);
+}
+
+.main-three .single-destination .single-destination-one .overlay .icon-love a {
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #FFF;
+}
+
+.main-three .single-destination .single-destination-one .overlay .icon-love:hover a {
+	background-color: #fea116;
+	transition: all 0.7s;
+}
+
+.main-three .single-destination .single-destination-one .overlay .icon-love a i {
+	color: #fea116;
+}
+
+.main-three .single-destination .single-destination-one .overlay .icon-love a:hover i {
+	color: #FFF;
+	transition: all 0.7s;
+}
+
+.main-three .single-destination .single-destination-one .overlay:hover .icon-love {
+	transform: translate(0, -10px);
+	transition: all 0.7s;
+}
+
+/*.single-destination .single-destination-two*/
+
+.main-three .single-destination .single-destination-two {
+	position: absolute;
+	width: 30%;
+	height: 500px;
+	background-image: url(./image/travel-2.jpg);
+	background-size: cover;
+	background-position: center;
+	margin: 20px 2% 20px 3%;
+	left: 65%;
+	/*display: none;*/
+}
+
+.main-three .single-destination .single-destination-two .overlay {
+	/*display: flex;*/
+	width: 100%;
+	height: 500px;
+	/*align-items: flex-end;*/
+	background: rgb(255,255,255);
+	background: linear-gradient(0deg, rgba(0,0,0,8) 0%, rgba(0,0,0,0) 100%);
+	box-sizing: border-box;
+	display: none;
+}
+
+.main-three .single-destination .single-destination-two:hover .overlay {
+	display: block;
+	display: flex;
+	align-items: flex-end;
+}
+
+.main-three .single-destination .single-destination-two .overlay .text {
+	position: absolute;
+	left: 5%;
+	padding-left: 20px;
+	padding-bottom: 40px;
+}
+
+.main-three .single-destination .single-destination-two .overlay:hover .text {
+	transform: translate(0, -10px);
+	transition: all 0.7s;
+}
+
+.main-three .single-destination .single-destination-two .overlay .text .top {
+	font-size: 2.5rem;
+}
+
+.main-three .single-destination .single-destination-two .overlay .text .bottom {
+	display: flex;
+}
+
+.main-three .single-destination .single-destination-two .overlay .text .bottom p {
+	margin: 0;
+	margin-left: 10px;
+}
+
+.main-three .single-destination .single-destination-two .overlay .icon-love {
+	position: absolute;
+	left: 85%;
+	bottom: 60px;
+	transform: scale(1.5);
+}
+
+.main-three .single-destination .single-destination-two .overlay .icon-love a {
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #FFF;
+}
+
+.main-three .single-destination .single-destination-two .overlay .icon-love:hover a {
+	background-color: #fea116;
+	transition: all 0.7s;
+}
+
+.main-three .single-destination .single-destination-two .overlay .icon-love a i {
+	color: #fea116;
+}
+
+.main-three .single-destination .single-destination-two .overlay .icon-love a:hover i {
+	color: #FFF;
+	transition: all 0.7s;
+}
+
+.main-three .single-destination .single-destination-two .overlay:hover .icon-love {
+	transform: translate(0, -10px);
+	transition: all 0.7s;
+}
+
+/*.single-destination-2 .single-destination-2-one*/
+
+.main-three .single-destination-2 .single-destination-2-one {
+	position: absolute;
+	width: 30%;
+	height: 300px;
+	background-image: url(./image/travel-2.jpg);
+	background-size: cover;
+	background-position: center;
+	margin: 20px 3% 20px 2%;
+}
+
+.main-three .single-destination-2 .single-destination-2-one .overlay {
+	/*display: flex;*/
+	width: 100%;
+	height: 300px;
+	/*align-items: flex-end;*/
+	background: rgb(255,255,255);
+	background: linear-gradient(0deg, rgba(0,0,0,8) 0%, rgba(0,0,0,0) 100%);
+	box-sizing: border-box;
+	display: none;
+}
+
+.main-three .single-destination-2 .single-destination-2-one:hover .overlay {
+	display: block;
+	display: flex;
+	align-items: flex-end;
+}
+
+.main-three .single-destination-2 .single-destination-2-one .overlay .text {
+	position: absolute;
+	left: 5%;
+	padding-left: 20px;
+	padding-bottom: 40px;
+}
+
+.main-three .single-destination-2 .single-destination-2-one .overlay:hover .text {
+	transform: translate(0, -10px);
+	transition: all 0.7s;
+}
+
+.main-three .single-destination-2 .single-destination-2-one .overlay .text .top {
+	font-size: 2.5rem;
+}
+
+.main-three .single-destination-2 .single-destination-2-one .overlay .text .bottom {
+	display: flex;
+}
+
+.main-three .single-destination-2 .single-destination-2-one .overlay .text .bottom p {
+	margin: 0;
+	margin-left: 10px;
+}
+
+.main-three .single-destination-2 .single-destination-2-one .overlay .icon-love {
+	position: absolute;
+	left: 85%;
+	bottom: 60px;
+	transform: scale(1.5);
+}
+
+.main-three .single-destination-2 .single-destination-2-one .overlay .icon-love a {
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #FFF;
+}
+
+.main-three .single-destination-2 .single-destination-2-one .overlay .icon-love:hover a {
+	background-color: #fea116;
+	transition: all 0.7s;
+}
+
+.main-three .single-destination-2 .single-destination-2-one .overlay .icon-love a i {
+	color: #fea116;
+}
+
+.main-three .single-destination-2 .single-destination-2-one .overlay .icon-love a:hover i {
+	color: #FFF;
+	transition: all 0.7s;
+}
+
+.main-three .single-destination-2 .single-destination-2-one .overlay:hover .icon-love {
+	transform: translate(0, -10px);
+	transition: all 0.7s;
+}
+
+/*.single-destination-2 .single-destination-2-two*/
+
+.main-three .single-destination-2 .single-destination-2-two {
+	position: absolute;
+	width: 30%;
+	height: 300px;
+	background-image: url(./image/travel-4.jpg);
+	background-size: cover;
+	background-position: center;
+	margin: 20px 3% 20px 0;
+	left: 35%;
+}
+
+.main-three .single-destination-2 .single-destination-2-two .overlay {
+	/*display: flex;*/
+	width: 100%;
+	height: 300px;
+	/*align-items: flex-end;*/
+	background: rgb(255,255,255);
+	background: linear-gradient(0deg, rgba(0,0,0,8) 0%, rgba(0,0,0,0) 100%);
+	box-sizing: border-box;
+	display: none;
+}
+
+.main-three .single-destination-2 .single-destination-2-two:hover .overlay {
+	display: block;
+	display: flex;
+	align-items: flex-end;
+}
+
+.main-three .single-destination-2 .single-destination-2-two .overlay .text {
+	position: absolute;
+	left: 5%;
+	padding-left: 20px;
+	padding-bottom: 40px;
+}
+
+.main-three .single-destination-2 .single-destination-2-two .overlay:hover .text {
+	transform: translate(0, -10px);
+	transition: all 0.7s;
+}
+
+.main-three .single-destination-2 .single-destination-2-two .overlay .text .top {
+	font-size: 2.5rem;
+}
+
+.main-three .single-destination-2 .single-destination-2-two .overlay .text .bottom {
+	display: flex;
+}
+
+.main-three .single-destination-2 .single-destination-2-two .overlay .text .bottom p {
+	margin: 0;
+	margin-left: 10px;
+}
+
+.main-three .single-destination-2 .single-destination-2-two .overlay .icon-love {
+	position: absolute;
+	left: 85%;
+	bottom: 60px;
+	transform: scale(1.5);
+}
+
+.main-three .single-destination-2 .single-destination-2-two .overlay .icon-love a {
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #FFF;
+}
+
+.main-three .single-destination-2 .single-destination-2-two .overlay .icon-love:hover a {
+	background-color: #fea116;
+	transition: all 0.7s;
+}
+
+.main-three .single-destination-2 .single-destination-2-two .overlay .icon-love a i {
+	color: #fea116;
+}
+
+.main-three .single-destination-2 .single-destination-2-two .overlay .icon-love a:hover i {
+	color: #FFF;
+	transition: all 0.7s;
+}
+
+.main-three .single-destination-2 .single-destination-2-two .overlay:hover .icon-love {
+	transform: translate(0, -10px);
+	transition: all 0.7s;
+}
+
+/*.single-destination-2 .single-destination-2-three*/
+
+.main-three .single-destination-2 .single-destination-2-three {
+	position: absolute;
+	width: 30%;
+	height: 300px;
+	background-image: url(./image/travel-5.jpg);
+	background-size: cover;
+	background-position: center;
+	margin: 20px 2% 20px 0;
+	left: 68%;
+}
+
+.main-three .single-destination-2 .single-destination-2-three .overlay {
+	/*display: flex;*/
+	width: 100%;
+	height: 300px;
+	/*align-items: flex-end;*/
+	background: rgb(255,255,255);
+	background: linear-gradient(0deg, rgba(0,0,0,8) 0%, rgba(0,0,0,0) 100%);
+	box-sizing: border-box;
+	display: none;
+}
+
+.main-three .single-destination-2 .single-destination-2-three:hover .overlay {
+	display: block;
+	display: flex;
+	align-items: flex-end;
+}
+
+.main-three .single-destination-2 .single-destination-2-three .overlay .text {
+	position: absolute;
+	left: 5%;
+	padding-left: 20px;
+	padding-bottom: 40px;
+}
+
+.main-three .single-destination-2 .single-destination-2-three .overlay:hover .text {
+	transform: translate(0, -10px);
+	transition: all 0.7s;
+}
+
+.main-three .single-destination-2 .single-destination-2-three .overlay .text .top {
+	font-size: 2.5rem;
+}
+
+.main-three .single-destination-2 .single-destination-2-three .overlay .text .bottom {
+	display: flex;
+}
+
+.main-three .single-destination-2 .single-destination-2-three .overlay .text .bottom p {
+	margin: 0;
+	margin-left: 10px;
+}
+
+.main-three .single-destination-2 .single-destination-2-three .overlay .icon-love {
+	position: absolute;
+	left: 85%;
+	bottom: 60px;
+	transform: scale(1.5);
+}
+
+.main-three .single-destination-2 .single-destination-2-three .overlay .icon-love a {
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #FFF;
+}
+
+.main-three .single-destination-2 .single-destination-2-three .overlay .icon-love:hover a {
+	background-color: #fea116;
+	transition: all 0.7s;
+}
+
+.main-three .single-destination-2 .single-destination-2-three .overlay .icon-love a i {
+	color: #fea116;
+}
+
+.main-three .single-destination-2 .single-destination-2-three .overlay .icon-love a:hover i {
+	color: #FFF;
+	transition: all 0.7s;
+}
+
+.main-three .single-destination-2 .single-destination-2-three .overlay:hover .icon-love {
+	transform: translate(0, -10px);
+	transition: all 0.7s;
 }
