@@ -1,0 +1,452 @@
+.main-two {
+	width: 100%;
+	height: 1100px;
+	background-image: url(./image/background-2.png);
+	background-size: cover;
+	background-position: center;
+	/*opacity: 0.5;*/
+	font-size: 1rem;
+}
+
+.main-two .text {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	opacity: 1;
+}
+
+.main-two .text .text-top {
+	margin: 100px 0 40px 0;
+	color: #fea116;
+}
+
+.main-two .text .text-mid {
+	font-size: 3rem;
+	color: #000;
+}
+
+.main-two .text .text-bottom {
+	margin: 20px 0 50px 0;
+	opacity: 0.3;
+}
+
+.main-two .hotel {
+	display: flex;
+}
+
+.main-two .hotel .hotel-one {
+	position: absolute;
+	left: 10%;
+	width: 25%;
+	background-color: #f9f9f9;
+	height: 700px;
+}
+
+.main-two .hotel .hotel-two {
+	position: absolute;
+	left: 37.5%;
+	width: 25%;
+	background-color: #f9f9f9;
+	height: 700px;
+}
+
+.main-two .hotel .hotel-three {
+	position: absolute;
+	left: 65%;
+	width: 25%;
+	background-color: #f9f9f9;
+	height: 700px;
+}
+
+.main-two .hotel .hotel-one .image {
+	background-image: url(./image/hotel-1.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 200px;
+	position: relative;
+}
+
+.main-two .hotel .hotel-two .image {
+	background-image: url(./image/hotel-2.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 200px;
+	position: relative;
+}
+
+.main-two .hotel .hotel-three .image {
+	background-image: url(./image/hotel-3.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 200px;
+	position: relative;
+}
+
+.main-two .hotel .hotel-one .image:hover {
+	transform: scale(1.1);
+	transition: all 0.7s;
+}
+
+.main-two .hotel .hotel-two .image:hover {
+	transform: scale(1.1);
+	transition: all 0.7s;
+}
+
+.main-two .hotel .hotel-three .image:hover {
+	transform: scale(1.1);
+	transition: all 0.7s;
+}
+
+.main-two .hotel .hotel-one .image .money {
+	position: absolute;
+	left: 10%;
+	top: 10%;
+	color: #FFF;
+	padding: 10px;
+	background-color: #fea116;
+	border-radius: 5px;
+}
+
+.main-two .hotel .hotel-two .image .money {
+	position: absolute;
+	left: 10%;
+	top: 10%;
+	color: #FFF;
+	padding: 10px;
+	background-color: #fea116;
+	border-radius: 5px;
+}
+
+.main-two .hotel .hotel-three .image .money {
+	position: absolute;
+	left: 10%;
+	top: 10%;
+	color: #FFF;
+	padding: 10px;
+	background-color: #fea116;
+	border-radius: 5px;
+}
+
+.main-two .hotel .hotel-one .image .money i {
+	padding-right: 10px;
+}
+
+.main-two .hotel .hotel-two .image .money i {
+	padding-right: 10px;
+}
+
+.main-two .hotel .hotel-three .image .money i {
+	padding-right: 10px;
+}
+
+.main-two .hotel .hotel-one .mid {
+	margin-left: 10%;
+	color: #9a9a9a;
+	border-bottom: 2px solid #e4e6ec;
+}
+
+.main-two .hotel .hotel-two .mid {
+	margin-left: 10%;
+	color: #9a9a9a;
+	border-bottom: 2px solid #e4e6ec;
+}
+
+.main-two .hotel .hotel-three .mid {
+	margin-left: 10%;
+	color: #9a9a9a;
+	border-bottom: 2px solid #e4e6ec;
+}
+
+.main-two .hotel .hotel-one .mid  .button a {
+	margin: 30px 50% 30px 0;
+	padding: 15px;
+	font-size: 1rem;
+	border-radius: 5px;	
+	border: 1px solid #3dbcb4;
+	background-color: #3dbcb4;
+	text-decoration: none;
+	color: #FFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-two .hotel .hotel-two .mid  .button a {
+	margin: 30px 50% 30px 0;
+	padding: 15px;
+	font-size: 1rem;
+	border-radius: 5px;	
+	border: 1px solid #3dbcb4;
+	background-color: #3dbcb4;
+	text-decoration: none;
+	color: #FFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-two .hotel .hotel-three .mid  .button a {
+	margin: 30px 50% 30px 0;
+	padding: 15px;
+	font-size: 1rem;
+	border-radius: 5px;	
+	border: 1px solid #3dbcb4;
+	background-color: #3dbcb4;
+	text-decoration: none;
+	color: #FFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-two .hotel .hotel-one .mid  .button a:hover {
+	color: #3dbcb4;
+	background-color: #FFF;
+	transition: all 0.5s;
+}
+
+.main-two .hotel .hotel-two .mid  .button a:hover {
+	color: #3dbcb4;
+	background-color: #FFF;
+	transition: all 0.5s;
+}
+
+.main-two .hotel .hotel-three .mid  .button a:hover {
+	color: #3dbcb4;
+	background-color: #FFF;
+	transition: all 0.5s;
+}
+
+.main-two .hotel .hotel-one .mid .name-room .top a {
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: #000;
+}
+
+.main-two .hotel .hotel-two .mid .name-room .top a {
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: #000;
+}
+
+.main-two .hotel .hotel-three .mid .name-room .top a {
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: #000;
+}
+
+.main-two .hotel .hotel-one .mid .name-room .bottom {
+	margin: 15px 0 40px 0;
+}
+
+.main-two .hotel .hotel-two .mid .name-room .bottom {
+	margin: 15px 0 40px 0;
+}
+
+.main-two .hotel .hotel-three .mid .name-room .bottom {
+	margin: 15px 0 40px 0;
+}
+
+.main-two .hotel .hotel-one .mid .parameter {
+	margin-bottom: 20px;
+}
+
+.main-two .hotel .hotel-two .mid .parameter {
+	margin-bottom: 20px;
+}
+
+.main-two .hotel .hotel-three .mid .parameter {
+	margin-bottom: 20px;
+}
+
+.main-two .hotel .hotel-one .mid .parameter .top .fas {
+	margin: 0 20px 20px 0;
+	color: #fea116;
+}
+
+.main-two .hotel .hotel-two .mid .parameter .top .fas {
+	margin: 0 20px 20px 0;
+	color: #fea116;
+}
+
+.main-two .hotel .hotel-three .mid .parameter .top .fas {
+	margin: 0 20px 20px 0;
+	color: #fea116;
+}
+
+.main-two .hotel .hotel-one .mid .parameter .top .fas p {
+	color: #9a9a9a;
+	display: inline;
+}
+
+.main-two .hotel .hotel-two .mid .parameter .top .fas p {
+	color: #9a9a9a;
+	display: inline;
+}
+
+.main-two .hotel .hotel-three .mid .parameter .top .fas p {
+	color: #9a9a9a;
+	display: inline;
+}
+
+.main-two .hotel .hotel-one .mid .parameter .midder .fas {
+	margin: 0 55px 20px 0;
+	color: #fea116;
+}
+
+.main-two .hotel .hotel-two .mid .parameter .midder .fas {
+	margin: 0 55px 20px 0;
+	color: #fea116;
+}
+
+.main-two .hotel .hotel-three .mid .parameter .midder .fas {
+	margin: 0 55px 20px 0;
+	color: #fea116;
+}
+
+.main-two .hotel .hotel-one .mid .parameter .midder .fas p {
+	color: #9a9a9a;
+	display: inline;
+}
+
+.main-two .hotel .hotel-two .mid .parameter .midder .fas p {
+	color: #9a9a9a;
+	display: inline;
+}
+
+.main-two .hotel .hotel-three .mid .parameter .midder .fas p {
+	color: #9a9a9a;
+	display: inline;
+}
+
+.main-two .hotel .hotel-one .mid .parameter .bottom .fas {
+	margin: 0 20px 40px 0;
+	color: #fea116;
+}
+
+.main-two .hotel .hotel-two .mid .parameter .bottom .fas {
+	margin: 0 20px 40px 0;
+	color: #fea116;
+}
+
+.main-two .hotel .hotel-three .mid .parameter .bottom .fas {
+	margin: 0 20px 40px 0;
+	color: #fea116;
+}
+
+.main-two .hotel .hotel-one .mid .parameter .bottom .fas p {
+	color: #9a9a9a;
+	display: inline;
+}
+
+.main-two .hotel .hotel-two .mid .parameter .bottom .fas p {
+	color: #9a9a9a;
+	display: inline;
+}
+
+.main-two .hotel .hotel-three .mid .parameter .bottom .fas p {
+	color: #9a9a9a;
+	display: inline;
+}
+
+.main-two .hotel .hotel-one .person-in-charge {
+	margin-left: 10%;
+	display: flex;
+	margin-top: 30px;
+}
+
+.main-two .hotel .hotel-two .person-in-charge {
+	margin-left: 10%;
+	display: flex;
+	margin-top: 30px;
+}
+
+.main-two .hotel .hotel-three .person-in-charge {
+	margin-left: 10%;
+	display: flex;
+	margin-top: 30px;
+}
+
+.main-two .hotel .hotel-one .person-in-charge .avatar {
+	background-image: url(./image/manager-1.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 60px;
+	width: 60px;
+	border-radius: 30px;
+}
+
+.main-two .hotel .hotel-two .person-in-charge .avatar {
+	background-image: url(./image/manager-2.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 60px;
+	width: 60px;
+	border-radius: 30px;
+}
+
+.main-two .hotel .hotel-three .person-in-charge .avatar {
+	background-image: url(./image/manager-3.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 60px;
+	width: 60px;
+	border-radius: 30px;
+}
+
+.main-two .hotel .hotel-one .person-in-charge .info {
+	margin-left: 20px;
+}
+
+.main-two .hotel .hotel-two .person-in-charge .info {
+	margin-left: 20px;
+}
+
+.main-two .hotel .hotel-three .person-in-charge .info {
+	margin-left: 20px;
+}
+
+.main-two .hotel .hotel-one .person-in-charge .info .name {
+	margin-bottom: 10px;
+}
+
+.main-two .hotel .hotel-two .person-in-charge .info .name {
+	margin-bottom: 10px;
+}
+
+.main-two .hotel .hotel-three .person-in-charge .info .name {
+	margin-bottom: 10px;
+}
+
+.main-two .hotel .hotel-one .person-in-charge .info .name a {
+	text-decoration: none;
+	font-size: 1.3rem;
+	color: #000;
+}
+
+.main-two .hotel .hotel-two .person-in-charge .info .name a {
+	text-decoration: none;
+	font-size: 1.3rem;
+	color: #000;
+}
+
+.main-two .hotel .hotel-three .person-in-charge .info .name a {
+	text-decoration: none;
+	font-size: 1.3rem;
+	color: #000;
+}
+
+.main-two .hotel .hotel-one .person-in-charge .info .manager {
+	color: #fea116;
+}
+
+.main-two .hotel .hotel-two .person-in-charge .info .manager {
+	color: #fea116;
+}
+
+.main-two .hotel .hotel-three .person-in-charge .info .manager {
+	color: #fea116;
+}
