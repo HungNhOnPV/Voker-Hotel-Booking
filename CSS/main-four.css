@@ -1,0 +1,73 @@
+.main-four {
+	width: 100%;
+	height: 900px;
+	background-image: url(./image/background-4.jpg);
+	background-size: cover;
+	background-position: center;
+	/*opacity: 0.5;*/
+	font-size: 1rem;
+}
+
+.main-four .text {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	opacity: 1;
+}
+
+.main-four .text .text-top {
+	margin: 100px 0 40px 0;
+	color: #fea116;
+}
+
+.main-four .text .text-mid {
+	font-size: 3rem;
+	color: #000;
+}
+
+.main-four .text .text-bottom {
+	margin: 20px 0 50px 0;
+	opacity: 0.3;
+}
+
+.main-four .col-3 {
+	display: flex;
+}
+
+.main-four .col-3 .single-work-process {
+	position: absolute;
+	left: 10%;
+	width: 25%;
+	height: 500px;
+	background-color: #FFF;
+	position: relative;
+	font-size: 1rem;
+	margin-right: 2.5%;
+}
+
+.main-four .col-3 .single-work-process .image {
+	position: absolute;
+	background-image: url(./image/icon-1.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 80%;
+	left: 10%;
+	height: 250px;
+}
+
+.main-four .col-3 .single-work-process .text {
+	position: absolute;
+	top: 300px;
+}
+
+.main-four .col-3 .single-work-process .text .top {
+	font-size: 1.5rem;
+	color: #42495b;
+}
+
+.main-four .col-3 .single-work-process .text .bottom {
+	font-size: 0.9rem;
+	padding: 10%;
+	line-height: 2;
+	color: #9a9a9a;
+}
