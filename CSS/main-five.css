@@ -1,0 +1,91 @@
+.main-five {
+	width: 100%;
+	height: 1400px;
+	background-image: url(./image/background-3.jpg);
+	background-size: cover;
+	background-position: center;
+	/*opacity: 0.5;*/
+	font-size: 1rem;
+}
+
+.main-five .text {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	opacity: 1;
+}
+
+.main-five .text .text-top {
+	margin: 100px 0 40px 0;
+	color: #fea116;
+}
+
+.main-five .text .text-mid {
+	font-size: 3rem;
+	color: #000;
+}
+
+.main-five .text .text-bottom {
+	margin: 20px 0 50px 0;
+	opacity: 0.3;
+}
+
+.main-five .col-3 {
+	display: flex; 
+	margin-bottom: 40px;
+}
+
+.main-five .col-3 .popular-cat-feature {
+	position: absolute;
+	left: 10%;
+	width: 25%;
+	height: 500px;
+	background-color: #FFF;
+	position: relative;
+	font-size: 1rem;
+	margin-right: 2.5%;
+}
+
+.main-five .col-3 .popular-cat-feature .image {
+	position: absolute;
+	background-image: url(./image/popular-cat-feature-image.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 250px;
+}
+
+.main-five .col-3 .popular-cat-feature .text {
+	position: absolute;
+	top: 300px;
+}
+
+.main-five .col-3 .popular-cat-feature .text .top {
+	display: flex;
+	margin-left: 10%;
+}
+
+.main-five .col-3 .popular-cat-feature .text .top .theme {
+	margin-left: 7%;
+}
+
+.main-five .col-3 .popular-cat-feature .text .top .icon {
+	transform: scale(2);
+	color: #fea116;
+}
+
+.main-five .col-3 .popular-cat-feature .text .top .theme a {
+	font-size: 1.5rem;
+	color: #42495b;
+	text-decoration: none;
+}
+
+.main-five .col-3 .popular-cat-feature .text .bottom {
+	font-size: 0.9rem;
+	margin-left: 20%;
+	margin-right: 5%;
+	line-height: 2;
+	color: #9a9a9a;
+	text-align: left;
+	margin-top: 20px;
+}
