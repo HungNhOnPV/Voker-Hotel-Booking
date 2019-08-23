@@ -1,0 +1,85 @@
+.main-seven {
+	width: 100%;
+	height: 800px;
+	/*background-image: url(./image/background-3.jpg);*/
+	background-size: cover;
+	background-position: center;
+	/*opacity: 0.5;*/
+	font-size: 1rem;
+}
+
+.main-seven .text {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	opacity: 1;
+}
+
+.main-seven .text .text-top {
+	margin: 100px 0 40px 0;
+	color: #fea116;
+}
+
+.main-seven .text .text-mid {
+	font-size: 3rem;
+	color: #000;
+}
+
+.main-seven .text .text-bottom {
+	margin: 20px 0 50px 0;
+	opacity: 0.3;
+}
+
+.main-seven .single-testimonial {
+	position: absolute;
+	height: 450px;
+	width: 35%;
+	background-color: #FFF;
+	left: 10%;
+	display: flex;
+	margin-right: 10%;
+}
+
+.main-seven .single-testimonial .face {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-image: url(./image/avatar-1.jpg);
+	background-size: cover;
+	background-position: center;
+	margin-top: 10%;
+}
+
+.main-seven .single-testimonial .comment {
+	width: 75%;
+	margin: 5% 0 5% 5%;
+	padding-left: 20px;
+	border: 1px solid #e4e4e4;
+}
+
+.main-seven .single-testimonial .comment .text {
+	text-align: left;
+	padding: 10px 20px 60px 10px;
+	border-bottom: 1px solid #e4e4e4;
+	line-height: 2;
+	color: #9f9f9f;
+}
+
+.main-seven .single-testimonial .comment .people {
+	margin-top: 10px;
+	line-height: 2;
+}
+
+.main-seven .single-testimonial .comment .people .name {
+	font-size: 1.4rem;
+	color: #42495b;
+}
+
+.main-seven .single-testimonial .comment .people .position {
+	font-size: 0.9rem;
+	color: #9e9e9e;
+}
+
+.main-seven .single-testimonial .comment .people .testi-footer-icon {
+	color: #feaf2b;
+}
