@@ -1,6 +1,6 @@
 .main-eight {
 	width: 100%;
-	height: 800px;
+	height: 850px;
 	background-image: url(./image/background-5.jpg);
 	background-size: cover;
 	background-position: center;
@@ -28,4 +28,63 @@
 .main-eight .text .text-bottom {
 	margin: 20px 0 50px 0;
 	opacity: 0.3;
+}
+
+.main-eight .col-3 {
+	display: flex;
+	position: relative;
+}
+
+.main-eight .col-3 .single-blog {
+	position: absolute;
+	left: 10%;
+	width: 25%;
+	background-color: #f9f9f9;
+	height: 450px;
+	margin-right: 5%;
+}
+
+.main-eight .col-3 .single-blog .image {
+	width: 100%;
+	height: 200px;
+	background-image: url(./image/image-1.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.main-eight .col-3 .single-blog .blog-content {
+	margin: 30px 5% 30px 5%;
+}
+
+.main-eight .col-3 .single-blog .blog-content .blog-wid {
+	display: flex;
+}
+
+.main-eight .col-3 .single-blog .blog-content .blog-wid .icon-text {
+	display: flex;
+	margin-right: 30px;
+}
+
+.main-eight .col-3 .single-blog .blog-content .blog-wid .icon-text i {
+	color: #fda62e;
+	display: flex;
+	align-items: center;
+}
+
+.main-eight .col-3 .single-blog .blog-content .blog-wid .icon-text p {
+	margin-left: 10px;
+	color: #5f5f5f;
+}
+
+.main-eight .col-3 .single-blog .blog-content .blog-text .text a {
+	text-align: left;
+	font-size: 1.3rem;
+	text-decoration: none;
+	color: #42495b;
+}
+
+.main-eight .col-3 .single-blog .blog-content .blog-text p {
+	line-height: 2;
+	margin-top: 30px;
+	color: #5f5f5f;
 }
