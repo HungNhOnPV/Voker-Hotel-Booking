@@ -1,0 +1,76 @@
+.main-nine {
+	font-size: 1rem;
+	background-color: #EEE;
+	height: 600px;
+	width: 100%;
+	position: relative;
+}
+
+.main-nine .text-center {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	line-height: 1.5;
+	padding-top: 100px;
+}
+
+.main-nine .text-center .top , .mid {
+	font-size: 3rem;
+	color: #42495b;
+}
+
+.main-nine .text-center .bottom {
+	color: #9d9b9a;
+}
+
+.main-nine .image-left {
+	background-image: url(./image/subscribe-img.png);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	width: 378px;
+	height: 307px;
+	top: 100px;
+}
+
+.main-nine .image-right {
+	background-image: url(./image/subscribe-now.png);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	width: 252px;
+	height: 176px;
+	top: 100px;
+	left: 75%;
+}
+
+.main-nine .subscribe-form {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	align-items: center;
+	width: 100%;
+	top: 250px;
+	padding-top: 100px;
+}
+
+.main-nine .subscribe-form input {
+	padding: 15px 30px;
+	font-size: 1.5rem;
+	border: 1px solid #EEE;
+	text-align: center;
+}
+
+.main-nine .subscribe-form .button {
+	margin-top: 20px;
+	padding: 10px 20px;
+	background-color: #fda129;
+	color: #FFF;
+	border-radius: 5px;
+}
+
+.main-nine .subscribe-form .button:hover {
+	background-color: #FFF;
+	color: #fda129;
+	transition: all 0.5s;
+}
