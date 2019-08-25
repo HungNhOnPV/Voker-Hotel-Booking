@@ -14,7 +14,12 @@
 	padding-top: 100px;
 }
 
-.main-nine .text-center .top , .mid {
+.main-nine .text-center .top {
+	font-size: 3rem;
+	color: #42495b;
+}
+
+.main-nine .text-center .mid  {
 	font-size: 3rem;
 	color: #42495b;
 }
