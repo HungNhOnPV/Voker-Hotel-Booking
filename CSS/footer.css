@@ -1,0 +1,109 @@
+.footer {
+	width: 100%;
+	height: 500px;
+	position: relative;
+	background-color: #42475a;
+	display: flex;
+	font-size: 1rem;
+}
+
+.footer .container {
+	padding: 130px 0 110px 0;
+}
+
+.footer .container .footer-one {
+	position: absolute;
+	left: 10%;
+	width: 10%;
+}
+
+.footer .container .footer-one .footer-copyright {
+	margin-top: 20px;
+	color: #FFF;
+}
+
+.footer .container .footer-two {
+	position: absolute;
+	left: 25%;
+}
+
+.footer .container .footer-two {
+	font-size: 1.5rem;
+	width: 25%;
+}
+
+.footer .container .footer-two .text-top {
+	color: #FFF;
+	margin-bottom: 20px;
+}
+
+.footer .container .footer-two .content-text {
+	color: #FFF;
+	line-height: 3;
+	font-size: 0.9rem;
+}
+
+.footer .container .footer-three {
+	position: absolute;
+	left: 55%;
+	color: #FFF;
+	width: 15%;
+}
+
+.footer .container .footer-three .text {
+	font-size: 1.5rem;
+	margin-bottom: 30px;
+}
+
+.footer .container .footer-three .list ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.footer .container .footer-three .list ul li {
+	margin-bottom: 20px;
+}
+
+.footer .container .footer-three .list ul li a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.footer .container .footer-three .list ul li a i {
+	margin-right: 8px;
+}
+
+.footer .container .footer-four {
+	position: absolute;
+	left: 75%;
+	width: 15%;
+	color: #FFF;
+}
+
+.footer .container .footer-four .text {
+	font-size: 1.5rem;
+	margin-bottom: 30px;
+}
+
+.footer .container .footer-four .list ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.footer .container .footer-four .list ul li {
+	margin-bottom: 20px;
+}
+
+.footer .container .footer-four .list ul li a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.footer .container .footer-four .list ul li a i {
+	margin-right: 8px;
+}
+
+.footer .container .footer-img {
+	position: absolute;
+	left: 85%;
+}
